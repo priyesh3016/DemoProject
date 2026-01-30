@@ -9,11 +9,24 @@
   <dependencies>
   
   <!-- Source: https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+<!-- Source: https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
 <dependency>
     <groupId>io.rest-assured</groupId>
-    <artifactId>rest-assured</artifactId>
-    <version>6.0.0</version>
+    <artifactId>xml-path</artifactId>
+    <version>5.3.0</version>
+</dependency>
+<!-- Source: https://mvnrepository.com/artifact/org.hamcrest/hamcrest -->
+<dependency>
+    <groupId>org.hamcrest</groupId>
+    <artifactId>hamcrest</artifactId>
+    <version>2.2</version>
     <scope>test</scope>
+</dependency>
+
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>json-path</artifactId>
+    <version>5.3.0</version>
 </dependency>
 
 <!-- Source: https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
@@ -39,5 +52,15 @@
     <version>3.0</version>
     <scope>test</scope>
 </dependency>
+
+<dependency>
+    <groupId>org.apache.httpcomponents</groupId>
+    <artifactId>httpclient</artifactId>
+    <version>4.5.14</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.httpcomponents</groupId>
+    <artifactId>httpmime</artifactId>
+    <version>4.5.13</version> </dependency>
   </dependencies>
 </project>
