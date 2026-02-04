@@ -24,4 +24,11 @@ public class payload {
 	 		+ "}\r\n"
 	 		+ "";	
 	}
+	
+
+
+	public static String coursePrize() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
